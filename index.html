@@ -80,13 +80,22 @@
     transition: 0.3s;
     margin: 12px 8px;
 }
-    }
+
 
     .button:hover {
       transform: translateY(-3px);
       background: #3690ff;
     }
+.contact .button + .button {
+    background: transparent;
+    border: 1px solid #4da3ff;
+    color: #4da3ff;
+}
 
+.contact .button + .button:hover {
+    background: #4da3ff;
+    color: white;
+}
     section {
       padding: 80px 20px;
       max-width: 1100px;
