@@ -140,17 +140,28 @@
     }
 
     .about p {
-      color: #b8c0ca;
-      font-size: 18px;
-      line-height: 1.7;
-    }
+    color: #b8c0ca;
+    font-size: 18px;
+    line-height: 1.7;
+}
 
-    .credentials {
-      margin-top: 24px;
-      color: #7fbaff;
-      font-weight: bold;
-      line-height: 1.8;
-    }
+.credentials {
+    margin-top: 24px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 12px;
+}
+
+.credentials span {
+    background: #0d131c;
+    border: 1px solid #1e2a38;
+    color: #7fbaff;
+    padding: 10px 16px;
+    border-radius: 999px;
+    font-size: 15px;
+    font-weight: bold;
+}
 
     .contact {
       text-align: center;
@@ -276,14 +287,18 @@ y
     Dubai-based Personal Trainer and Human Performance Professional specializing in strength & conditioning, sports rehabilitation, injury prevention, post-injury return to training and body transformation.
   </p>
 
-  <p class="credentials">
-    FIFA Football Medicine • NASM Nutrition • Strength & Conditioning •
-    Sports Rehabilitation • Human Performance
-  </p>
-
-</section>
+  
 
 
+
+<div class="credentials">
+  <span>FIFA Football Medicine</span>
+  <span>NASM Nutrition</span>
+  <span>Strength & Conditioning</span>
+  <span>Sports Rehabilitation</span>
+  <span>Human Performance</span>
+</div>
+  </section>
 <section id="contact" class="contact">
 
   <h2 class="section-title">
